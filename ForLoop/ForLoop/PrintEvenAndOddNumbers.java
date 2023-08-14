@@ -1,0 +1,23 @@
+package ForLoop;
+
+public class PrintEvenAndOddNumbers {
+
+	public static void main(String[] args) {
+		System.out.println("Odd Numbers Are:");
+		for(int i=1;i<=100;i++) {
+			if(i%2!=0) {
+				
+				System.out.println(i);
+				
+			}
+		}
+		System.out.println("Even Numbers Are:");
+		for(int i=1; i<=100;i++) {
+			if(i%2==0) {
+				System.out.println(i);
+			}
+		}
+
+	}
+
+}
