@@ -17,8 +17,8 @@ public class Main {
 		LibraryMember faculty =new FacultyMember(1,"Prof.Sona","Songs");
 		
 		student.borrowItem(b);
-        ((Reservable) faculty).reserveItem(b);
-        faculty.borrowItem(d);
+                ((Reservable) faculty).reserveItem(b);
+                faculty.borrowItem(d);
 
 	}
 
