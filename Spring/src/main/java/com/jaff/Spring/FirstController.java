@@ -30,8 +30,8 @@ public class FirstController {
 	}
 	
 	
-	@RequestMapping("n")
-	float getData()
+	@RequestMapping("num")
+	float getNum()
 	{
 		return 97.9f;
 	}
